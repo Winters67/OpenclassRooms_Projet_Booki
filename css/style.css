@@ -8,8 +8,125 @@
 
 html,
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+}
 
 a {
   text-decoration: none;
 }
+
+/* header */
+
+.container {
+  display: flex;
+  text-align: end;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+nav {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.lodging {
+  margin: 20px;
+  padding-top: 30px;
+  border-top: #0065fc solid 2px;
+  color: #0065fc;
+}
+
+.lodging:hover {
+  border-top: #deebff solid 2px;
+  color: #deebff;
+  transition: 0.5s;
+}
+
+.activity {
+  margin: 20px;
+}
+
+.activity:hover {
+  padding-top: 30px;
+  border-top: #deebff solid 2px;
+  color: #deebff;
+  transition: 0.5s;
+}
+
+/* titre recherche filtre */
+
+.title {
+  margin: 10px;
+  padding: 10px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.subtitle {
+  margin: 10px;
+}
+
+/* button recherche */
+
+form {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+form i {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+form input {
+  padding: 10px;
+  border: #f2f2f2 solid 1px;
+}
+
+form button {
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: #0065fc;
+  color: #deebff;
+  cursor: pointer;
+}
+
+form button:hover {
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: #deebff;
+  color: #0065fc;
+}
+
+/* filtre */
+
+.filter {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter i {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  color: #0065fc;
+  border-radius: 50px;
+  background-color: #deebff;
+}
+
+.filter button {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  ;
