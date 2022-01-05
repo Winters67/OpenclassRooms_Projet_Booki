@@ -76,7 +76,7 @@ form {
   padding: 10px;
 }
 
-form i {
+form .prefix {
   background-color: #f2f2f2;
   padding: 10px;
   margin-left: 10px;
@@ -86,7 +86,7 @@ form i {
 
 form input {
   padding: 10px;
-  border: #f2f2f2 solid 1px;
+  border: #f2f2f2 solid 0.5px;
 }
 
 form button {
@@ -111,22 +111,102 @@ form button:hover {
 /* filtre */
 
 .filter {
-  max-width: 70%;
+  max-width: 80%;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
+  gap: 10px;
+}
+
+.filter h3 {
+  align-items: center;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .filter i {
   display: flex;
-  align-items: center;
+  justify-self: center;
   padding: 18px;
   color: #0065fc;
   border-radius: 50px;
+  margin-right: 16px;
   background-color: #deebff;
+  outline: #deebff solid 1px;
 }
 
 .filter button {
   display: flex;
   align-items: center;
-  padding: 18px;
-  ;
+  border-radius: 50px;
+  border: 1.5px solid #deebff;
+  background-color: white;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+/* animation buton filtre */
+
+.filter button:hover {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: 1.5px solid #deebff;
+  background-color: white;
+  padding-right: 10px;
+  font-weight: bold;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.info i {
+  font-size: 10px;
+  color: #0065fc;
+  border: 1px solid #deebff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.info p {
+  padding: 5x;
+}
