@@ -213,13 +213,13 @@ form button:hover {
 /* Hebergement  */
 
 .main {
-  display: grid;
-  grid-template-columns: 60% auto;
+  display: flex;
 }
 
 .hosting {
   display: flex;
   background-color: red;
+  flex: 3 auto;
 }
 
 .hostingmain {
