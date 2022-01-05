@@ -209,3 +209,45 @@ form button:hover {
 .info p {
   padding: 5x;
 }
+
+/* Hebergement  */
+
+.main {
+  display: grid;
+  grid-template-columns: 60% auto;
+}
+
+.hosting {
+  display: flex;
+  background-color: red;
+}
+
+.hostingmain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hostingmain h2 {
+  order: -1;
+  flex: 1 0 100%;
+}
+
+.hostingmain img {
+  width: 300px;
+  height: 200px;
+}
+
+.hostindcard {
+  display: flex;
+  border: #0065fc 5px solid;
+}
+
+.hostingPopular {
+  display: flex;
+  max-width: 40%;
+}
+
+.hostingPopular h2 {
+  order: -1;
+  flex: 1 0 100%;
+}
