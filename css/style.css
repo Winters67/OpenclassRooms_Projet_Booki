@@ -149,49 +149,16 @@ form button:hover {
 /* animation buton filtre */
 
 .filter button:hover {
-  display: flex;
-  align-items: center;
   border-radius: 50px;
   border: 1.5px solid #deebff;
-  background-color: white;
+  background-color: #0065fc;
+  color: white;
   padding-right: 10px;
   font-weight: bold;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  cursor: pointer;
+  transition: 0.5s;
 }
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-@keyframes pulse {
-  0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
+/* -------------------------- */
 .info {
   display: flex;
   align-items: center;
@@ -228,7 +195,7 @@ form button:hover {
   width: 70%;
 }
 
-.title_hosting {
+#title_hosting {
   inline-size: 100%;
   margin: 10px;
   padding-left: 40px;
@@ -248,15 +215,6 @@ form button:hover {
   box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
 }
 
-.hosting_list:hover {
-  background-color: white;
-  transition: 0.8s;
-  width: 300px;
-  height: auto;
-  transform: scale(1.2);
-  box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.9);
-}
-
 .hosting_list img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -265,6 +223,19 @@ form button:hover {
   object-fit: cover;
 }
 
+/* -------------Annimation photo----- */
+
+.hosting_list:hover {
+  display: block;
+  background-color: white;
+  transition: 0.8s;
+  box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.9);
+  cursor: pointer;
+  transform: scale(1.2);
+  padding: 0px;
+}
+
+/* ----------------------------------- */
 .figcaption_host {
   width: 100%;
   height: auto;
@@ -297,9 +268,8 @@ form button:hover {
   width: 100%;
   text-decoration: none;
   color: black;
-}
-.link {
   font-weight: bolder;
+  cursor: default;
 }
 /* hébergement populaire */
 
@@ -326,7 +296,7 @@ form button:hover {
   padding-bottom: 40px;
 }
 
-.popular_hosting_list {
+.popular_hosting_list a {
   display: flex;
   flex-wrap: nowrap;
   padding: 5px;
@@ -337,12 +307,17 @@ form button:hover {
   border-radius: 25px;
   box-shadow: 0px 0px 4px 1px rgba(12, 1, 1, 0.2);
 }
-.popular_hosting_list:hover {
+/* -------------Annimation photo----- */
+.popular_hosting_list a:hover {
+  padding: 0px;
+  margin: 0px;
   transition: 0.8s;
   transform: scale(1.2);
   border-radius: 25px;
-  box-shadow: 0px 0px 4px 1px rgba(12, 1, 1, 0.2);
+  box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.9);
 }
+/* ------------------------------------- */
+
 .popular_hosting_list img {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -379,3 +354,5 @@ form button:hover {
 .popular_price {
   font-weight: bolder;
 }
+
+/* Activités à Marseille */
