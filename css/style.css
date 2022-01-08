@@ -356,3 +356,75 @@ form button:hover {
 }
 
 /* Activités à Marseille */
+
+.container_activity {
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #0065fc;
+}
+
+#activity_link {
+  inline-size: 100%;
+}
+
+.title_picture {
+  display: flex;
+}
+
+.old_port {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.old_port img {
+  display: flex;
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pomègues {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.pomègues img {
+  display: flex;
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.frioul {
+  display: flex;
+
+  width: 200px;
+  height: 300px;
+}
+
+.Calanques {
+  display: flex;
+
+  width: 200px;
+  height: 300px;
+}
+
+.dame {
+  display: flex;
+
+  width: 200px;
+  height: 300px;
+}
+
+.longchamp {
+  display: flex;
+
+  width: 200px;
+  height: 300px;
+}
