@@ -355,8 +355,9 @@ form button:hover {
 .popular_price {
   font-weight: bolder;
 }
-
-/* Activités à Marseille */
+/* ----------------------------------------------- */
+/* -----------Activités à Marseille -------------*/
+/* ---------------------------------------------- */
 
 #activity_link {
   position: relative;
@@ -378,6 +379,17 @@ form button:hover {
   border-top-right-radius: 25px;
   width: 100%;
   box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
+  object-fit: cover;
+}
+
+.container_activity_main img:hover {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
+  object-fit: cover;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .title_picture {
@@ -445,4 +457,30 @@ form button:hover {
 
 .longchamp img {
   height: 150px;
+}
+
+/* --------------------------------- /* 
+---------------Footer---------------
+/* ---------------------------------- */
+
+.footer_container {
+  display: flex;
+  gap: 300px;
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 35px;
+  margin: 30px -20px 30px -20px;
+}
+
+.footer_container h3 {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.footer_container ul {
+  list-style: none;
+}
+
+.footer_container ul li {
+  padding-top: 5px;
 }
