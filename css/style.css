@@ -9,6 +9,7 @@
 html,
 body {
   font-family: "Raleway", sans-serif;
+  padding: 0px 20px 0 20px;
 }
 
 a {
@@ -357,74 +358,91 @@ form button:hover {
 
 /* Activités à Marseille */
 
-.container_activity {
-  display: flex;
-  flex-wrap: wrap;
-
-  background-color: #0065fc;
+#activity_link {
+  position: relative;
+  padding: 20px;
+  font-weight: 600;
 }
 
-#activity_link {
-  inline-size: 100%;
+.container_activity_main {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.container_activity_main img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
 }
 
 .title_picture {
-  display: flex;
+  margin-top: -5px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
 }
 
-.old_port {
-  background-color: aquamarine;
+.container_activity_1 {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  width: 33%;
 }
+
 .old_port img {
-  display: flex;
-  width: 100px;
-  height: 200px;
-  object-fit: cover;
+  height: 400px;
 }
 
-.pomègues {
-  background-color: aquamarine;
+/* ---------------------- */
+
+.container_activity_2 {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  gap: 30px;
+  width: 33%;
 }
 
 .pomègues img {
-  display: flex;
-  width: 100px;
-  height: 200px;
-  object-fit: cover;
+  height: 210px;
 }
 
-.frioul {
-  display: flex;
-
-  width: 200px;
-  height: 300px;
+.frioul img {
+  height: 110px;
 }
 
-.Calanques {
-  display: flex;
+/* --------------------- */
 
-  width: 200px;
-  height: 300px;
+.container_activity_3 {
+  display: flex;
+  width: 33%;
 }
 
-.dame {
-  display: flex;
-
-  width: 200px;
-  height: 300px;
+.Calanques img {
+  height: 400px;
 }
 
-.longchamp {
-  display: flex;
+/* --------------------- */
 
-  width: 200px;
-  height: 300px;
+.container_activity_4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+  gap: 40px;
+}
+
+.dame img {
+  height: 160px;
+}
+
+.longchamp img {
+  height: 150px;
 }
