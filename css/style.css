@@ -18,6 +18,11 @@ a {
 
 /* header */
 
+.logo {
+  height: 80px;
+  width: auto;
+}
+
 .container {
   display: flex;
   text-align: end;
@@ -147,7 +152,7 @@ form button:hover {
   font-weight: bold;
 }
 
-/* animation buton filtre */
+/*--------------- animation buton filtre -----------*/
 
 .filter button:hover {
   border-radius: 50px;
@@ -159,7 +164,7 @@ form button:hover {
   cursor: pointer;
   transition: 0.5s;
 }
-/* -------------------------- */
+/* ------------------------------------------------- */
 .info {
   display: flex;
   align-items: center;
@@ -179,7 +184,7 @@ form button:hover {
   padding: 5x;
 }
 
-/* Hebergement  Marseille */
+/* --------------Hebergement  Marseille-------------- */
 
 .hosting_popular_container {
   display: inline-flex;
@@ -191,9 +196,10 @@ form button:hover {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #f2f2f2;
-  gap: 10px;
+  gap: 30px;
   border-radius: 25px;
   width: 70%;
+  padding: 20px 0 20px 0;
 }
 
 #title_hosting {
@@ -206,12 +212,9 @@ form button:hover {
 .hosting_list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 5px;
-  margin: 10px 0px 0px 10px;
   border-radius: 25px;
   background-color: white;
-  width: 260px;
+  width: auto;
   height: auto;
   box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
 }
@@ -219,28 +222,26 @@ form button:hover {
 .hosting_list img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  width: 100%;
-  height: 150px;
+  padding: 5px;
+  width: 255px;
+  height: 120px;
   object-fit: cover;
 }
 
 /* -------------Annimation photo----- */
 
 .hosting_list:hover {
-  display: block;
-  background-color: white;
-  transition: 0.8s;
   box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.9);
   cursor: pointer;
-  transform: scale(1.2);
-  padding: 0px;
+  opacity: 0.5;
 }
 
 /* ----------------------------------- */
 .figcaption_host {
-  width: 100%;
+  width: auto;
   height: auto;
-  padding: 8px;
+  padding: 0 0 10px 10px;
+  margin: 4px;
 }
 
 .figcaption_host h3 {
@@ -272,7 +273,7 @@ form button:hover {
   font-weight: bolder;
   cursor: default;
 }
-/* hébergement populaire */
+/* -----------------hébergement populaire---------------- */
 
 .title_popular {
   font-size: 16px;
@@ -294,26 +295,23 @@ form button:hover {
   background-color: #f2f2f2;
   border-radius: 25px;
   width: 30%;
-  padding-bottom: 40px;
+  padding: 20px 0 20px 0;
 }
 
-.popular_hosting_list a {
+.popular_hosting_list {
   display: flex;
   flex-wrap: nowrap;
   padding: 5px;
   margin: 10px;
   width: 300px;
-  height: 160px;
+  height: auto;
   background-color: white;
   border-radius: 25px;
   box-shadow: 0px 0px 4px 1px rgba(12, 1, 1, 0.2);
 }
 /* -------------Annimation photo----- */
-.popular_hosting_list a:hover {
-  padding: 0px;
-  margin: 0px;
-  transition: 0.8s;
-  transform: scale(1.2);
+.popular_hosting_list:hover {
+  opacity: 0.5;
   border-radius: 25px;
   box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.9);
 }
@@ -322,8 +320,8 @@ form button:hover {
 .popular_hosting_list img {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
-  width: 45%;
-  height: 100%;
+  width: 110px;
+  height: 130px;
   object-fit: cover;
 }
 
@@ -331,7 +329,8 @@ form button:hover {
   font-size: 16px;
   width: auto;
   height: auto;
-  padding: 8px;
+  padding: 2px;
+  margin-left: 10px;
 }
 
 .figcaption_popular h3 {
@@ -349,15 +348,14 @@ form button:hover {
 .figcaption_popular i {
   color: #0065fc;
   font-size: 12px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .popular_price {
   font-weight: bolder;
 }
-/* ----------------------------------------------- */
-/* -----------Activités à Marseille -------------*/
-/* ---------------------------------------------- */
+
+/* Activité Marseille */
 
 #activity_link {
   position: relative;
@@ -459,9 +457,7 @@ form button:hover {
   height: 150px;
 }
 
-/* --------------------------------- /* 
----------------Footer---------------
-/* ---------------------------------- */
+/*        Footer       */
 
 .footer_container {
   display: flex;
