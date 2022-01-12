@@ -1,0 +1,184 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 150px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  /* boutton Hébergement  */
+
+  .lodging {
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+    border-top: none;
+    margin: 0;
+    padding: 0px 15px 10px 15px;
+  }
+  /*  bouton Activités */
+
+  .activity {
+    color: black;
+    margin: 10px;
+
+    border-top: none;
+    margin: 0;
+    padding: 0px 15px 10px 15px;
+  }
+
+  .container nav {
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 9px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  /* parti filtre  */
+
+  .filter {
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .filter h2 {
+    display: flex;
+    flex-basis: 100%;
+  }
+
+  .filter button {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    border: 2px solid #f2f2f2;
+  }
+
+  /* partie hébergement  */
+
+  .hosting_popular_container {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .hosting_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 25px;
+    padding: 20px 0 20px 0;
+  }
+
+  .hosting_list img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+    width: 350px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .popular_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f2f2f2;
+    width: auto;
+    padding: 20px 0px 20px 0;
+    border-radius: 0px;
+  }
+
+  /* partie activité  */
+
+  .container_activity_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_activity_1 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .old_port img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .container_activity_2 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .pomègues img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .frioul img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .container_activity_3 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+  .Calanques img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .container_activity_4 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+  .dame img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .longchamp img {
+    width: 500px;
+    height: 200px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f2f2f2;
+    gap: 40px;
+    width: 100%;
+  }
+}
