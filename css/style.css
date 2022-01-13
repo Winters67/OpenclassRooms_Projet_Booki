@@ -220,7 +220,7 @@ form button:hover {
   flex-direction: column;
   border-radius: 25px;
   background-color: white;
-  width: auto;
+  width: 30%;
   height: auto;
   box-shadow: 0px 0px 5px 1px rgba(12, 1, 1, 0.2);
 }
@@ -229,8 +229,8 @@ form button:hover {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   padding: 5px;
-  width: 255px;
-  height: 120px;
+  width: auto;
+  height: 150px;
   object-fit: cover;
 }
 
@@ -309,8 +309,8 @@ form button:hover {
   flex-wrap: nowrap;
   padding: 5px;
   margin: 10px;
-  width: 300px;
-  height: auto;
+  width: auto;
+  height: 150px;
   background-color: white;
   border-radius: 25px;
   box-shadow: 0px 0px 4px 1px rgba(12, 1, 1, 0.2);
@@ -326,12 +326,14 @@ form button:hover {
 .popular_hosting_list img {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
-  width: 110px;
-  height: 130px;
+  width: 50%;
+  height: 100%;
   object-fit: cover;
 }
 
 .figcaption_popular {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
   width: auto;
   height: auto;
@@ -346,6 +348,7 @@ form button:hover {
 }
 
 .figcaption_popular p {
+  width: 100%;
   margin: 2px;
   padding: 2px;
   font-size: 12px;
@@ -354,7 +357,8 @@ form button:hover {
 .figcaption_popular i {
   color: #0065fc;
   font-size: 12px;
-  margin-top: 40px;
+  display: inline-flex;
+  margin: 2px;
 }
 
 .popular_price {
@@ -428,6 +432,7 @@ form button:hover {
 
 .pomègues img {
   height: 210px;
+  width: 100%;
 }
 
 .frioul img {
