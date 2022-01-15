@@ -4,38 +4,63 @@
     padding: 0;
   }
 
+  .logo {
+    padding: 40px;
+  }
+
   header {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .logo {
-    width: 100px;
-    height: auto;
-    padding-bottom: 20px;
-  }
+  /* hébergement */
 
   .lodging {
-    color: #0065fc;
-    border-bottom: 3px solid #0065fc;
-    border-top: none;
     margin: 0;
-    padding: 0px 15px 10px 15px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    width: 50%;
   }
+
+  .lodging:hover {
+    border-bottom: #0065fc 3px solid;
+    padding: 0;
+    margin-bottom: -2px;
+    border-top: none;
+    width: 50%;
+
+    /* text-align: left; */
+  }
+  /* activités */
 
   .activity {
-    color: black;
-    margin: 10px;
-
-    border-top: none;
     margin: 0;
-    padding: 0px 15px 10px 15px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    width: 50%;
   }
 
+  .activity:hover {
+    border-bottom: #0065fc 3px solid;
+    padding: 0;
+    margin-bottom: -2px;
+    border-top: none;
+    width: 50%;
+    text-align: center;
+  }
+
+  .container {
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+  }
   .container nav {
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
     border-bottom: 3px solid #f2f2f2;
-    padding-bottom: 9px;
   }
 
   .title {
