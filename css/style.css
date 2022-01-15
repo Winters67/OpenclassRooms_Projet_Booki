@@ -43,25 +43,24 @@ nav {
 .lodging {
   margin: 20px;
   padding-top: 30px;
+}
+
+.lodging:hover {
+  transition: 0.2s;
   border-top: #0065fc solid 2px;
   color: #0065fc;
 }
 
-.lodging:hover {
-  border-top: #deebff solid 2px;
-  color: #deebff;
-  transition: 0.5s;
-}
-
 .activity {
+  padding-top: 30px;
   margin: 20px;
 }
 
 .activity:hover {
+  transition: 0.2s;
   padding-top: 30px;
-  border-top: #deebff solid 2px;
-  color: #deebff;
-  transition: 0.5s;
+  border-top: #0065fc solid 2px;
+  color: #0065fc;
 }
 
 /* titre recherche filtre */
