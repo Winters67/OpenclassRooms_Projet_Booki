@@ -47,7 +47,7 @@ nav {
 
 .lodging:hover {
   transition: 0.2s;
-  border-top: #0065fc solid 2px;
+  border-top: #0065fc solid 1px;
   color: #0065fc;
 }
 
@@ -59,7 +59,7 @@ nav {
 .activity:hover {
   transition: 0.2s;
   padding-top: 30px;
-  border-top: #0065fc solid 2px;
+  border-top: #0065fc solid 1px;
   color: #0065fc;
 }
 
