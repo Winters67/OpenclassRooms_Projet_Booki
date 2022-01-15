@@ -19,7 +19,7 @@
   .lodging {
     color: #0065fc;
     border-bottom: 3px solid #0065fc;
-    border-top: none;
+    border-top: white;
     margin: 0;
     padding: 0px 15px 10px 15px;
   }
@@ -27,8 +27,7 @@
   .activity {
     color: black;
     margin: 10px;
-
-    border-top: none;
+    border-top: white;
     margin: 0;
     padding: 0px 15px 10px 15px;
   }
