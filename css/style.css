@@ -110,6 +110,14 @@ form button {
   cursor: pointer;
 }
 
+form .search {
+  position: relative;
+}
+
+form .submiticon {
+  display: none;
+}
+
 form button:hover {
   padding: 10px;
   border-top-right-radius: 10px;
